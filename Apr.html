@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendar</title>
+    <meta charset="UTF-8" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--connects to google fonts before loading website-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet"><!--//font Raleway-->
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet"><!--//font Sigmar One-->
+    <style>
+        body{
+            background: rgb(12,60,101);
+background: -moz-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+background: -webkit-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+background: linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c3c65",endColorstr="#582e2e",GradientType=1);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="date"><a href="index.html" class="link">&lt&ltBACK</a></div><!--Back-->
+    <div class="text-center heading">April</div><!--Heading-->
+    <table class="text-center date table" center>
+        <tr>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thur</td>
+            <td>Fri</td>
+            <td>Sat</td>
+            <td>Sun</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td>1</td>
+            <td data-toggle="modal" data-target="#2i" style="color:#66ff00">2<br><img src="./red.png"/></td>
+            <td>3</td>
+            <td style="color:#66ff00">4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td style="color:#66ff00">11</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td data-toggle="modal" data-target="#13i" style="color:#66ff00">13<br><img src="./red.png"/></td>
+            <td data-toggle="modal" data-target="#14i" style="color:#66ff00">14<br><img src="./red.png"/></td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td style="color:#66ff00">18</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>20</td>
+            <td data-toggle="modal" data-target="#21d" style="color:#66ff00">21<br><img src="./blue.png"/></td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td data-toggle="modal" data-target="#25i" style="color:#66ff00">25<br><img src="./red.png"/></td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">1</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">2</td>
+        </tr>
+    </table>
+    <p style="color: whitesmoke; background-color: rgba(221, 226, 230, 0.164);" class="text-center">
+        <img src="./red.png"/> Holiday in India  
+        <img src="./blue.png"/> Holiday in Dallas
+        </p>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="2i" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Good Friday</h4>
+            </div>
+            <div class="modal-body">
+              <p>Many countries observe Good Friday as a national holiday on the Friday before Easter. The day commemorates the crucifixion and death of Jesus Christ.
+
+                Some countries observe the Orthodox calendar in which Good Friday may occur on a different date.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal -->
+    <div class="modal fade" id="13i" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Vaisakhi</h4>
+            </div>
+            <div class="modal-body">
+              <p>Vaisakhi is an ancient spring harvest festival that has been observed in the Punjab region for many centuries.
+
+                It became closely associated with Sikhism at the end of the 17th century, when Guru Gobind Singh, leader of the Sikhs, chose the date of the festival to create the highest order that can reached by Sikhs, known as the Khalsa Panth.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Modal -->
+    <div class="modal fade" id="14i" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Dr Ambedkar Jayanti</h4>
+            </div>
+            <div class="modal-body">
+              <p>It is celebrated to mark the birthday of Dr Babasaheb Ambedkar, an Indian jurist, politician, philosopher, anthropologist, historian and economist who was the principal architect of the Constitution of India.
+
+                Dr Ambedkar was born on April 14th 1891. Born into poverty, Ambedkar campaigned against the Indian caste system. He became a convert to Buddhism and is seen as a driving force in the surge of converts that saw many thousands of lower caste members become Buddhists.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+         <!-- Modal -->
+    <div class="modal fade" id="21d" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">San Jacinto Day</h4>
+            </div>
+            <div class="modal-body">
+              <p>The Battle of San Jacinto was fought on April 21st 1836, in present-day Harris County, Texas. It proved to be the decisive battle of the Texas Revolution, which led to Texian independence from the Centralist Republic of Mexico.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+         <!-- Modal -->
+    <div class="modal fade" id="25i" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Mahavir Jayanti</h4>
+            </div>
+            <div class="modal-body">
+              <p>The holiday is celebrated on the 13th day of the waxing (rising) half of Hindu month of Caitra which usually occurs in either late March or early April in the Gregorian calendar.
+
+                Mahavir Jayanti celebrates the birth of Mahavira, a contemporary of the Buddha, and the 24th and last Tirthankara (great sages).
+                
+                Mahavira, known originally as Vardhamana, was born in either 599 BC or 615 BC. The Digambar school of Jainism say that Lord Mahavira was born in the year 615 BC, but the Swetambaras believe that He was born in 599 BC. However, both sects believe that Mahavira was the son of Siddhartha and Trisala.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

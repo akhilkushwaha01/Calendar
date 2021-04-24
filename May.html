@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendar</title>
+    <meta charset="UTF-8" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--connects to google fonts before loading website-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet"><!--//font Raleway-->
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet"><!--//font Sigmar One-->
+    <style>
+        body{
+            background: rgb(12,60,101);
+background: -moz-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+background: -webkit-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+background: linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c3c65",endColorstr="#582e2e",GradientType=1);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="date"><a href="index.html" class="link">&lt&ltBACK</a></div><!--Back-->
+    <div class="text-center heading">May</div><!--Heading-->
+    <table class="text-center date table" center>
+        <tr>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thur</td>
+            <td>Fri</td>
+            <td>Sat</td>
+            <td>Sun</td>
+        </tr>
+        <tr>
+            <td style="color:rgba(206, 206, 206, 0.534)">26</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">27</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">28</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">29</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">30</td>
+            <td>1</td>
+            <td style="color:#66ff00">2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td style="color:#66ff00">9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td data-toggle="modal" data-target="#14i" style="color:#66ff00">14<br><img src="./red.png"/></td>
+            <td>15</td>
+            <td style="color:#66ff00">16</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td style="color:#66ff00">23</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td style="color:#66ff00">30</td>
+        </tr>
+        <tr>
+            <td data-toggle="modal" data-target="#31d" style="color:#66ff00">31<br><img src="./blue.png"/></td>
+            <td style="color:rgba(206, 206, 206, 0.534)">1</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">2</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">3</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">4</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">5</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">6</td>
+        </tr>
+    </table>
+    <p style="color: whitesmoke; background-color: rgba(221, 226, 230, 0.164);" class="text-center">
+        <img src="./red.png"/> Holiday in India  
+        <img src="./blue.png"/> Holiday in Dallas
+        </p>
+
+
+
+
+   <!-- Modal -->
+   <div class="modal fade" id="14i" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+        <div class="modal-header">
+          <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Eid al-Fitr</h4>
+        </div>
+        <div class="modal-body">
+          <p>The festival of Eid al-Fitr, the Festival of Fast-breaking, is an important religious holiday celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of fasting.  The holiday celebrates the conclusion of the 29 or 30 days of dawn-to-sunset fasting during the entire month of Ramadan.
+
+            As the date of Eid depends on the sighting of the moon, there may be variations in the exact date that is celebrated around the world. The announcement of the exact dates of Eid Al-Fitr may not happen until close to the start of Ramadan.</p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="31d" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+        <div class="modal-header">
+          <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Memorial Day</h4>
+        </div>
+        <div class="modal-body">
+          <p>Memorial Day is a United States federal holiday observed on the last Monday of May.
+
+            As this is a Federal holiday, not only will schools and libraries be closed, most federal and state offices will be closed and there will be no mail deliveries on Memorial Day
+            
+            As Memorial Day always falls on a Monday, this creates a three-day break known as Memorial Day weekend. The Memorial Day weekend is seen as the unofficial start of summer, and as such, it is a popular holiday enjoyed with outdoor events and picnics.</p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

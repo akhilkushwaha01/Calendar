@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendar</title>
+    <meta charset="UTF-8" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--connects to google fonts before loading website-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet"><!--//font Raleway-->
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet"><!--//font Sigmar One-->
+    <style>
+        body{
+            background: rgb(12,60,101);
+            background: -moz-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+            background: -webkit-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+            background: linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="date"><a href="index.html" class="link">&lt&ltBACK</a></div><!--Back-->
+    <div class="text-center heading">January</div><!--Heading-->
+    <table class="text-center date table" center>
+        <tr>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thur</td>
+            <td>Fri</td>
+            <td>Sat</td>
+            <td>Sun</td>
+        </tr>
+        <tr>
+            <td style="color:rgba(206, 206, 206, 0.534)">28</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">29</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">30</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">31</td>
+            <td data-toggle="modal" data-target="#1d" style="color:#66ff00">01<br><img src="./red.png"/><img src="./blue.png"/></td>
+            <td>02</td>
+            <td style="color:#66ff00">03</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>05</td>
+            <td>06</td>
+            <td>07</td>
+            <td>08</td>
+            <td>09</td>
+            <td style="color:#66ff00">10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td style="color:#66ff00">17</td>
+        </tr>
+        <tr>
+            <td data-toggle="modal" data-target="#18d" style="color:#66ff00">18<br><img src="./blue.png"/></td>
+            <td data-toggle="modal" data-target="#19d" style="color:#66ff00">19<br><img src="./blue.png"/></td>
+            <td data-toggle="modal" data-target="#20i" style="color:#66ff00">20<br><img src="./red.png"/></td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td style="color:#66ff00">24</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td data-toggle="modal" data-target="#26i" style="color:#66ff00">26<br><img src="./red.png"/></td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td style="color:#66ff00">31</td>
+        </tr>
+    </table>
+    <p style="color: whitesmoke;background-color: rgba(221, 226, 230, 0.164);" class="text-center">
+    <img src="./red.png"/> Holiday in India  
+    <img src="./blue.png"/> Holiday in Dallas
+    </p>
+
+    
+      
+        <!-- Modal -->
+        <div class="modal fade" id="1d" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+              <div class="modal-header">
+                <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Happy New Year</h4>
+              </div>
+              <div class="modal-body">
+                <p>New Year's Day, also simply called New Year or New Year's, is observed on 1 January, the first day of the year on the modern Gregorian calendar as well as the Julian calendar. Whilst most solar calendars (like the Gregorian and Julian) begin the year regularly at or near the northern winter solstice, the start of the new year in cultures that observe a lunisolar or lunar calendar (such as the Chinese New Year and the Islamic New Year) happen at less fixed points relative to the solar year.</p>
+                </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="18d" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+                <div class="modal-header">
+                  <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Marin Luther King Jr. Day</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Martin Luther King Jr. Day (officially Birthday of Martin Luther King, Jr.,[1] and sometimes referred to as MLK Day) is a federal holiday in the United States marking the birthday of Martin Luther King Jr. It is observed on the third Monday of January each year. Born in 1929, Rev. Dr. King's actual birthday is January 15.</p>
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+        <div class="modal fade" id="19d" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+                <div class="modal-header">
+                  <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Confederate Heroes' Day</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Confederate Memorial Day (called Confederate Heroes Day in Texas and Florida, and Confederate Decoration Day in Tennessee) is a cultural holiday observed in several Southern U.S. states on various dates since the end of the Civil War to remember the estimated 258,000 Confederate soldiers who died in military service.</p>
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+        <div class="modal fade" id="20i" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+                <div class="modal-header">
+                  <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title" style="text-align: right;">Parkash Gurpurab Sri Guru Gobind Singh Ji</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Gobind Singh was the tenth of the Sikh Gurus. Following the death of his father, Guru Tegh Bahadur, Gobind Singh became the leader of the Sikhs when he was only nine years old.
+
+                    Famed as a warrior, poet, and philosopher. His contributions to Sikhism were many including the tradition of covering one's hair with a turban.
+                    
+                    He initiated the Khalsa order, the highest order that can be reached by Sikhs. Khalsa must abide by four restrictions; Not to disturb the natural growth of the hairs, not to eating meat slaughtered in a halal manner, not cohabiting with a person other than one's spouse and not using tobacco or a hookah.</p>
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+        <div class="modal fade" id="26i" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+                <div class="modal-header">
+                  <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Republic Day</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Republic Day is an important national holiday that commemorates the establishment of the Constitution of India.
+
+                    The adoption of the constitution marked the transition to full independence from Britain as it ended Lord Mountbatten's role as governor-general of India.
+                    
+                    The Drafting Committee, headed by Dr. BR Ambedkar took around 2 years and 11 months to put together the Indian Constitution.</p>
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

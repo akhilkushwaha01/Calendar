@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendar</title>
+    <meta charset="UTF-8" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--connects to google fonts before loading website-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet"><!--//font Raleway-->
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet"><!--//font Sigmar One-->
+    <style>
+        body{
+            background: rgb(12,60,101);
+background: -moz-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+background: -webkit-linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+background: linear-gradient(142deg, rgba(12,60,101,1) 0%, rgba(88,46,46,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c3c65",endColorstr="#582e2e",GradientType=1);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="date"><a href="index.html" class="link">&lt&ltBACK</a></div><!--Back-->
+    <div class="text-center heading">March</div><!--Heading-->
+    <table class="text-center date table" center>
+        <tr>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thur</td>
+            <td>Fri</td>
+            <td>Sat</td>
+            <td>Sun</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td data-toggle="modal" data-target="#2d" style="color:#66ff00">2<br><img src="./blue.png"/></td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td style="color:#66ff00">7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td data-toggle="modal" data-target="#11i" style="color:#66ff00">11<br><img src="./red.png"/></td>
+            <td>12</td>
+            <td>13</td>
+            <td style="color:#66ff00">14</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td style="color:#66ff00">21</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td style="color:#66ff00">28</td>
+        </tr>
+        <tr>
+            <td data-toggle="modal" data-target="#29i" style="color:#66ff00">29<br><img src="./red.png"/></td>
+            <td>30</td>
+            <td data-toggle="modal" data-target="#31d" style="color:#66ff00">31<br><img src="./blue.png"/></td>
+            <td style="color:rgba(206, 206, 206, 0.534)">1</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">2</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">3</td>
+            <td style="color:rgba(206, 206, 206, 0.534)">4</td>
+        </tr>
+    </table>
+    <p style="color: whitesmoke;background-color: rgba(221, 226, 230, 0.164);" class="text-center">
+      <img src="./red.png"/> Holiday in India  
+      <img src="./blue.png"/> Holiday in Dallas
+      </p>
+
+    <!-- Modal -->
+    <div class="modal fade" id="2d" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Texas Independence Day</h4>
+            </div>
+            <div class="modal-body">
+              <p>Texas Independence Day is a state holiday in Texas that observed on March 2nd irrespective of what day of the week it falls on.
+
+                The holiday marks the adoption of the Texas Declaration of Independence from Mexico on March 2nd 1836.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal -->
+    <div class="modal fade" id="31d" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Cesar Chavez Day</h4>
+            </div>
+            <div class="modal-body">
+              <p>Cesar Chavez Day is always celebrated on his birthday, March 31st. President Barack Obama declared Cesar Chavez Day a national holiday in 2014.
+
+                It is not a federal holiday, but is a state holiday in California. It is either an optional or commemorative day in nine other states - Arizona, Colorado, Illinois, Michigan, New Mexico, Texas, Utah, Wisconsin and Rhode Island.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Modal -->
+    <div class="modal fade" id="11i" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Maha Shivratri</h4>
+            </div>
+            <div class="modal-body">
+              <p>Maha Shivaratri is the night when Shiva is said to have performed the Tandava Nritya, or the dance of primordial creation, preservation and destruction. According to believers, this saved the world from destruction. Hindu scholars say Maha Shivaratri was the day when Shiva drank poisonous negativity to protect the world.
+
+                Maha Shivratri is observed to mark a remembrance of 'overcoming darkness and ignorance' in life and the world. Unlike most festivals, is celebrated at night and is a solemn event.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+    <div class="modal fade" id="29i" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content" style="background-color: rgb(224, 224, 224);">
+            <div class="modal-header">
+              <button type="button" class="close clbtn" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Holi</h4>
+            </div>
+            <div class="modal-body">
+              <p>Holi was originally a festival to celebrate the start of Spring, good harvests and fertility of the land. The first mentions of it date back to a poem from the 4th century.
+
+                Holi was described in a 7th century Sanskrit play called "Ratnavali," written by the Indian emperor Harsha.
+                
+                "Witness the beauty of the great cupid festival which excites curiosity as the townsfolk are dancing at the touch of brownish water thrown ... Everything is coloured yellowish red and rendered dusty by the heaps of scented powder blown all over," wrote Harsha.</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default clbtn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
